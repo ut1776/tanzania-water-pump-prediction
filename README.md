@@ -115,7 +115,7 @@ The training features are joined to their labels using the water-point identifie
 | Non-functional | 22,824 | 38.42% |
 | Functional needs repair | 4,317 | 7.27% |
 
-<Chart content={{"chartType":"bar","meta":{"description":"Distribution of the 59,400 labeled training water points."},"xKey":"status","series":[{"dataKey":"count","label":"Water points","valueFormat":"compact"}],"data":[{"status":"Functional","count":32259},{"status":"Non-functional","count":22824},{"status":"Needs repair","count":4317}]}}/>
+
 
 A classifier that always predicts the majority class would achieve approximately **54.31% accuracy** on this training distribution. The model's 80.21% cross-validated accuracy is substantially higher, but overall accuracy alone does not tell the whole story: the rare repair-needed class is much harder to identify.
 
