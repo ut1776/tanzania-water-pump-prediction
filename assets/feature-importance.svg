@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="t d">
+<title id="t">Important feature groups</title><desc id="d">Conceptual diagram listing water quantity, geographic location, and pump age as important signals in the trained LightGBM model.</desc>
+<rect width="1200" height="350" rx="24" fill="#f5f8f7"/><text x="48" y="55" font-family="Arial" font-size="27" font-weight="700" fill="#183a45">Signals the fitted model relied on</text>
+<g font-family="Arial" text-anchor="middle"><rect x="55" y="115" width="320" height="155" rx="18" fill="#1d6570"/><rect x="440" y="115" width="320" height="155" rx="18" fill="#315b80"/><rect x="825" y="115" width="320" height="155" rx="18" fill="#68885f"/>
+<g fill="#fff"><text x="215" y="170" font-size="25" font-weight="700">Water quantity</text><text x="215" y="208" font-size="16">enough · insufficient</text><text x="215" y="232" font-size="16">dry · seasonal</text>
+<text x="600" y="170" font-size="25" font-weight="700">Geography</text><text x="600" y="208" font-size="16">longitude · latitude</text><text x="600" y="232" font-size="16">region · ward</text>
+<text x="985" y="170" font-size="25" font-weight="700">Infrastructure age</text><text x="985" y="208" font-size="16">construction year</text><text x="985" y="232" font-size="16">derived pump age</text></g></g>
+<text x="55" y="315" font-family="Arial" font-size="16" fill="#526d73">Feature importance is predictive, not causal; consult the notebook for the exact fold-averaged gain ranking.</text>
+</svg>
